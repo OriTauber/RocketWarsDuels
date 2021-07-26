@@ -1,0 +1,23 @@
+name: RocketWarsDuels
+version: 1.0
+main: me.ori.main.Main
+api-version: 1.16
+description: A rocketwars(bedwars with rocket crossbows) duels plugin!
+
+commands:
+  rocketwarsduels:
+    description: base plugin command use with /select
+    aliases: rwd
+
+permissions:
+  rwd.*:
+    description: all rwd perms! (start game, select team)
+    default: op
+
+  rwd.start:
+    description: start the game
+    default: op
+
+  rwd.select:
+    description: join a team
+    default: true
